@@ -1,0 +1,8 @@
+model,status,error,fit_index,value
+higher_order_ordinal_cfa,ok,,chisq.scaled,445.796105655078
+higher_order_ordinal_cfa,ok,,df.scaled,400
+higher_order_ordinal_cfa,ok,,pvalue.scaled,0.0565370956036552
+higher_order_ordinal_cfa,ok,,cfi.scaled,0.998492469679873
+higher_order_ordinal_cfa,ok,,tli.scaled,0.998360560776862
+higher_order_ordinal_cfa,ok,,rmsea.scaled,0.00854771002139686
+higher_order_ordinal_cfa,ok,,srmr,0.0194627731054082

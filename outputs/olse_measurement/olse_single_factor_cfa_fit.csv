@@ -1,0 +1,8 @@
+model,status,error,fit_index,value
+single_factor_ordinal_cfa,ok,,chisq.scaled,455.154872084292
+single_factor_ordinal_cfa,ok,,df.scaled,405
+single_factor_ordinal_cfa,ok,,pvalue.scaled,0.0429391343237873
+single_factor_ordinal_cfa,ok,,cfi.scaled,0.998348986463202
+single_factor_ordinal_cfa,ok,,tli.scaled,0.99822668916418
+single_factor_ordinal_cfa,ok,,rmsea.scaled,0.00888985246889336
+single_factor_ordinal_cfa,ok,,srmr,0.0196982652982289

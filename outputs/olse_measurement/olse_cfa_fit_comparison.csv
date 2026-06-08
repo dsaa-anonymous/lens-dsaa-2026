@@ -1,0 +1,22 @@
+model,status,error,fit_index,value
+Five-domain correlated CFA,ok,,chisq.scaled,442.746494684838
+Five-domain correlated CFA,ok,,df.scaled,395
+Five-domain correlated CFA,ok,,pvalue.scaled,0.0486341375186909
+Five-domain correlated CFA,ok,,cfi.scaled,0.99842826617269
+Five-domain correlated CFA,ok,,tli.scaled,0.998269103253468
+Five-domain correlated CFA,ok,,rmsea.scaled,0.0087828951989167
+Five-domain correlated CFA,ok,,srmr,0.0193874859450342
+Higher-order CFA,ok,,chisq.scaled,445.796105655078
+Higher-order CFA,ok,,df.scaled,400
+Higher-order CFA,ok,,pvalue.scaled,0.0565370956036552
+Higher-order CFA,ok,,cfi.scaled,0.998492469679873
+Higher-order CFA,ok,,tli.scaled,0.998360560776862
+Higher-order CFA,ok,,rmsea.scaled,0.00854771002139686
+Higher-order CFA,ok,,srmr,0.0194627731054082
+Single-factor CFA,ok,,chisq.scaled,455.154872084292
+Single-factor CFA,ok,,df.scaled,405
+Single-factor CFA,ok,,pvalue.scaled,0.0429391343237873
+Single-factor CFA,ok,,cfi.scaled,0.998348986463202
+Single-factor CFA,ok,,tli.scaled,0.99822668916418
+Single-factor CFA,ok,,rmsea.scaled,0.00888985246889336
+Single-factor CFA,ok,,srmr,0.0196982652982289

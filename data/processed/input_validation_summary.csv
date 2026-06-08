@@ -1,0 +1,11 @@
+metric,value
+student_course_rows,1568
+course_term_rows,268
+course_redesign_rows,19
+courses,19
+course_term_cells,67
+section_term_rows,268
+pre_redesign_observations,942
+post_redesign_observations,626
+letter_grade_mismatches,0
+student_olse_grade_correlation,0.411482

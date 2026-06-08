@@ -1,0 +1,2 @@
+model,status,converged,chisq,df,pvalue,cfi,tli,rmsea,srmr
+primary_latent_parcel_sem_cluster_course,ok,TRUE,30.0809241620628,25,0.221273207326329,0.999191281116951,0.998738398542443,0.0113848764726509,0.00915279571142068

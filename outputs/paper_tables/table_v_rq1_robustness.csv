@@ -1,0 +1,5 @@
+check,estimate,std_error,df,p_value,main_finding
+CR2/Satterthwaite,0.3798496183156368,0.12360662608869136,15.440601148482848,0.00752323420889399,"beta = 0.38, SE = 0.124, df = 15.44, p = 0.0075"
+Leave-one-course-out,,,,0.01100270767271451,All estimates positive = TRUE; beta range = 0.337-0.438
+Instructor-adjusted FE,0.3868498744358928,0.11895715393090515,,0.00442576645703227,"beta = 0.387, SE = 0.119, p = 0.0044"
+Course-term aggregate,0.3798496183156479,0.12263961911774442,,0.00621614919887668,"beta = 0.38, SE = 0.123, p = 0.0062"

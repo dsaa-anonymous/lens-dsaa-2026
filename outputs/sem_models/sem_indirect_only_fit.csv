@@ -1,0 +1,2 @@
+model,status,converged,chisq,df,pvalue,cfi,tli,rmsea,srmr
+indirect_only_latent_parcel_sem,ok,TRUE,97.0849490578658,29,2.84811574324806e-09,0.989163076991846,0.985426206989034,0.0386948823283956,0.0216873155929608

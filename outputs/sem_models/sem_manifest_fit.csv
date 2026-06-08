@@ -1,0 +1,2 @@
+model,status,converged,chisq,df,pvalue,cfi,tli,rmsea,srmr
+manifest_olse_path_sem_cluster_course,ok,TRUE,7.22444326584082e-12,0,,0.999999999999984,1,0,1.37362025490893e-08
