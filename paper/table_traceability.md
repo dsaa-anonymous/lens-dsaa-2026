@@ -152,14 +152,3 @@ Sources:
 | SEM indirect associations | `figures/fig_04_sem_indirect_associations.png` | `scripts/06_make_figures.R` |
 
 ---
-
-## Final pre-submission checks
-
-Before submitting or archiving the repository:
-
-1. Run all six scripts from the repository root.
-2. Run `notebooks/00_run_all_pipeline_with_comparison.ipynb`.
-3. Confirm `outputs_comparison/00_full_pipeline_comparison.csv` has no missing files.
-4. Check any CSV-level differences before release.
-5. Confirm the manuscript uses 67 course-term cells and the updated Table VII values.
-6. Regenerate a non-empty `renv.lock` with `renv::snapshot()`.
