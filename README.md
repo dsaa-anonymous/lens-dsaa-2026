@@ -11,7 +11,7 @@ The scripts are the source of truth. The notebooks are literate wrappers around 
 
 The notebook pipeline writes generated artifacts to outputs_notebooks/, figures_notebooks/, and outputs_comparison/ when run.
 
----
+
 
 ## Repository at a glance
 
