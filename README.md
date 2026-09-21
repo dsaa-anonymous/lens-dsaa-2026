@@ -32,7 +32,7 @@ The notebook pipeline writes generated artifacts to outputs_notebooks/, figures_
 └── paper/                     # Paper PDF and table traceability notes
 ```
 
----
+
 
 ## What the workflow reproduces
 
@@ -45,7 +45,7 @@ The pipeline reproduces three analytic layers from the paper:
 | RQ3 SEM mechanism models | Are redesign variables associated with grades through OLSE-consistent pathways? | `04_sem_mechanism_model.R` | `outputs/sem_models/`, `outputs/paper_tables/table_vii_sem_paths.csv`, `outputs/paper_tables/table_viii_indirect_associations.csv` |
 | Paper tables and figures | Generate publication-facing tables and figures from the analysis outputs | `05_make_paper_tables.R`, `06_make_figures.R` | `outputs/paper_tables/`, `figures/` |
 
----
+
 
 ## Input data
 
@@ -61,7 +61,7 @@ The analysis file contains 1,568 student-course observations across 19 courses, 
 
 Identifiers in the public release are de-identified. The repository is intended for reproducing aggregate/model outputs, not for individual-level prediction or decision-making.
 
----
+
 
 ## Software requirements
 
@@ -75,7 +75,7 @@ c(
 )
 ```
 
----
+
 
 ## Reproduce results with the canonical script pipeline
 
@@ -86,6 +86,8 @@ Rscript scripts/01_prepare_data.R
 Rscript scripts/02_fixed_effects_models.R
 Rscript scripts/03_olse_cfa_measurement.R
 Rscript scripts/04_sem_mechanism_model.R
+Rscript scripts/04b_sem_power_analysis.R
+Rscript scripts/04c_baseline_ablation_comparisons.R
 Rscript scripts/05_make_paper_tables.R
 Rscript scripts/06_make_figures.R
 ```
@@ -101,7 +103,7 @@ outputs/paper_tables/
 figures/
 ```
 
----
+
 
 ## Reproduce results with notebooks
 
@@ -138,7 +140,7 @@ The modular notebooks can also be run in order:
 
 See `notebooks/README.md` for details.
 
----
+
 
 ## Script-vs-notebook reproducibility check
 
@@ -159,7 +161,7 @@ Interpretation of the manifest:
 
 In the final checked run, the substantive CSV/table outputs matched; remaining byte-level differences were attributable to generated workbook metadata, volatile HTML identifiers, the expected `figures/` versus `figures_notebooks/` path difference in the figure inventory, and one extra script-side identifier column in a processed SEM helper file.
 
----
+
 
 ## Paper table traceability
 
@@ -184,7 +186,7 @@ The most important files are:
 
 See `paper/table_traceability.md` for a reviewer-facing crosswalk between paper tables, scripts, and generated files.
 
----
+
 
 ## Key result files for reviewers
 
@@ -202,13 +204,13 @@ outputs/paper_tables/appendix_table_xi_cfa_comparison.csv
 outputs_comparison/00_full_pipeline_comparison.csv
 ```
 
----
+
 
 ## Privacy and intended use
 
 This repository is for reproducible institutional research and paper review. The public files use de-identified identifiers and should be used only to reproduce aggregate summaries, models, tables, and figures. The workflow should not be used for individual-level student prediction, intervention automation, or re-identification.
 
----
+
 
 ## Citation
 
