@@ -1,0 +1,2 @@
+analysis,term,estimate,std_error,statistic,p_value,conf_low,conf_high,n,effect_scale,olse_grade_correlation,simple_r_squared,course_fe,term_fe,includes_olse,includes_redesign_features
+Survey-only OLSE -> grade,olse_overall_z,0.41148206812499927,0.03169231540743473,12.983654328660041,1.405332626220747e-10,0.344898984179249,0.4780651520707495,1568,SD grade per 1 SD OLSE,0.41148206812499805,0.16931749238842553,FALSE,FALSE,TRUE,FALSE

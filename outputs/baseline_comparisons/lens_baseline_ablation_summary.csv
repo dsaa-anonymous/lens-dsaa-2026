@@ -1,0 +1,6 @@
+analysis,grade,course_term_fixed_effects,olse,redesign_features,indirect_olse_path,focal_result,added_information
+Simple pre/post grade,TRUE,FALSE,FALSE,FALSE,FALSE,"Raw post-pre grade difference = 0.259; model estimate = 0.259, p <.001",Unadjusted outcome change only
+Course + term FE grade,TRUE,TRUE,FALSE,FALSE,FALSE,"Adjusted post-redesign grade association = 0.380, p .005",Separates post-redesign association from stable course differences and common term differences
+Survey-only,TRUE,FALSE,TRUE,FALSE,FALSE,"OLSE-grade standardized association = 0.411, p <.001; r = 0.411",Shows OLSE-grade association without redesign information
+Redesign-only,TRUE,TRUE,FALSE,TRUE,FALSE,Mastery = 0.138 (p .026); social/vicarious = 0.180 (p .009); structural/compliance = 0.123 (p .054),Links redesign dimensions to grades without modeling OLSE
+Full linked LENS,TRUE,FALSE,TRUE,TRUE,TRUE,Indirects: post = 0.157; mastery = 0.085; social/vicarious = 0.166; structural/compliance = 0.120,"Jointly links redesign dimensions, latent OLSE, direct grade associations, and indirect OLSE-linked associations"

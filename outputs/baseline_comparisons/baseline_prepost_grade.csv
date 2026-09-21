@@ -1,0 +1,2 @@
+analysis,term,estimate,std_error,statistic,p_value,conf_low,conf_high,n,effect_scale,pre_mean,post_mean,raw_mean_difference,course_fe,term_fe,includes_olse,includes_redesign_features
+Simple pre/post grade comparison,post_redesign,0.25891143173046044,0.06155876505193808,4.2059230966055425,5.311836586518597e-4,0.12958126546282397,0.3882415979980969,1568,raw grade points,2.455944798301486,2.714856230031949,0.25891143173046327,FALSE,FALSE,FALSE,FALSE

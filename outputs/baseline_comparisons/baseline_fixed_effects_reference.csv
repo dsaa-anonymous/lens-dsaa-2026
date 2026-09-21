@@ -1,0 +1,2 @@
+analysis,term,estimate,std_error,statistic,p_value,conf_low,conf_high,n,effect_scale,course_fe,term_fe,includes_olse,includes_redesign_features
+Course + term FE grade model,post_redesign,0.37984961831564745,0.11809125179649148,3.216577117585715,0.004784840516628417,0.13174910465674441,0.6279501319745505,1568,raw grade points,TRUE,TRUE,FALSE,FALSE
